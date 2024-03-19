@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sítio Web com Técnicas de Layouts de Colunas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f9a0acd7af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsivo.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div id="menu">
+                <img src="IMG/One-Piece-Logo.png" alt="onepiece-logo" class="logo_img">
+
+                <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul>
+                        <li>
+                            <li><strong><a href="home.html">Empresa</a></strong></li>
+                            <li><strong><a href="produtos.html">Produtos</a></strong></li>
+                            <li><strong><a href="servicos.html">Serviços</a></strong></li>
+                            <li><strong><a href="contato.html">Contato</a></strong></li>
+                            <li><strong><a href="mapadosite.html">Mapa do Site</a></strong></li>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="menu-bg" id="menu-bg"></div>
+        </div>
+    </header>
+
+    <br>
+    <div class="box_title">
+        <h2>ENTRE EM CONTATO!</h2>
+    </div>
+
+    <section class="box">
+        <p><strong>E-mail: </strong> <input type="text" name="E-mail" placeholder="Seu e-mail" required></p>
+        <p><strong>Para: </strong> <input type="text" name="Para" placeholder="Seu receptor" required></p>
+        <p><strong>Assunto: </strong><input type="text" name="Assunto" placeholder="Assunto" required></p>
+        <p><strong>Mensagem: </strong><textarea type="text" class="textarea_box" name="Mensagem"
+                placeholder="Sua mensagem" required></textarea>
+        <div class="center">
+            <button type="reset" name="deletar" class="deletar">Deletar</button>
+            <button type="submit" name="enviar" class="enviar">Enviar</button>
+        </div>
+    </section>
+
+    <footer>
+        <section class="redes_sociais">
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+        </section>
+        <section class="copyright">
+            <p>&copy;AléxiaCazale</p>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
